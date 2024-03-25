@@ -49,6 +49,10 @@
 
 /* index css */
 
+#bar {
+    display: none;
+}
+
 #part1 {
     height: 100vh;
     width: 100%;
@@ -826,6 +830,11 @@ input {
 }
 
 @media screen and (max-width: 680px) {
+
+    #bar {
+        display: block;
+    }
+
     #show {
         display: none;
     }
