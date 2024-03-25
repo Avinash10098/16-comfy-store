@@ -15,7 +15,5 @@ const displayFeture = async () => {
     const featuredProduct = store.filter((red) => red.featured === true);
     display(featuredProduct, getElement('.page2-container'));
 }
-opencart();
-
 
 window.addEventListener('DOMContentLoaded', displayFeture);

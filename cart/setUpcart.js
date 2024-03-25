@@ -1,6 +1,7 @@
 import { getElement, getFromLocalStorage, setUptoLoacalStorage } from "../src/utils.js";
-import opencart from "../src/opencart.js";
+// import { opencart  from "../src/opencart.js";
 import addCartDom from "./addCartDom.js";
+import opencart from "../src/opencart.js";
 
 import { findProduct } from "../src/store.js";
 

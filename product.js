@@ -17,5 +17,5 @@ searchSetUp(store);
 setUpcompaines(store);
 
 setPrice(store);
-opencart();
+// opencart();
 loading.style.display = 'none';
