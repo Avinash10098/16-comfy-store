@@ -876,6 +876,17 @@ input {
         grid-template-columns: 1fr;
         gap: 4vh;
     }
+
+    .about-div h1 {
+        font-size: 1.7rem;
+    }
+
+    .about-div {
+        width: 100%;
+        margin: 0;
+        /* text-align: center; */
+        padding: 10vh 0;
+    }
 }
 
 /* media query end */
